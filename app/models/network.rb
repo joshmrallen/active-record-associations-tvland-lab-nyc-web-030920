@@ -5,3 +5,24 @@ class Network < ActiveRecord::Base
     "We're sorry about passing on John Mulaney's pilot"
   end
 end
+
+
+
+
+
+
+
+
+
+#summary of relations in this lab:
+#actor
+#-----has many characters
+#-----has many shows, through characters
+
+#character -------- characters join actors to shows, shows to actors
+#-----belongs to actor
+#-----belongs to show
+
+#show
+#-----has many characters
+#-----has many actors, through characters
